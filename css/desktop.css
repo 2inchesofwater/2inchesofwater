@@ -1,0 +1,66 @@
+
+/* ------- Basic styles ----------------------------------------------------------------------------- */
+body {margin: 25px;}
+
+#container { width: 1000px; }
+
+#navigation { width: 210px; height:1000px; float:left; display:inline-block; }
+
+#navigation #blank {height:30px; }
+
+
+#navigation .nav_sync_home { height:450px; }
+#navigation .nav_sync_home h4 { position:relative; text-align:center; top:200px;  }
+#navigation .nav_sync_home h5 { position:relative; text-align:center; top:200px; margin-top:0px; text-shadow: 0px 1px 1px #444444;}
+#navigation .nav_sync_home h6 { position:relative; text-align:center; top:200px;  margin-top:0px;}
+#navigation .nav_sync_home img { position:relative; top:200px; left:35px; border:0;}
+#navigation .nav_contact { height:80px; }
+#navigation .nav_contact h5 { position:relative; left: 25px; padding-top:10px;}
+#navigation .nav_contact p { left: 25px; }
+
+#navigation .tile h5 { text-shadow: 0px 1px 1px #444444; height:60px;}
+#navigation .tile a { position:relative; left: 25px; top:20px; }
+
+#navigation .nav_social { height: 64px;}
+
+
+.content { width: 590px; padding: 100px 100px 100px 100px; float:left; left:210px; min-height:700px;}
+.content #books { float:left; display: inline-block; position: relative; left: 25px;}
+.content #heading { position:relative; left: -20px; text-align:right; text-shadow: 0px 1px 1px #333333;}
+.content #home_intro { position:relative; width: 530px; float:right; margin:0px 20px 0 0 ;}
+.content #home_measure { position:relative; width: 380px; float:right; margin:50px 20px 0 0 ;}
+.content #home_conclusion  { position:relative; left: 80px; margin-top: 30px; }
+.content #logo { display:block;}
+.content #websites {}
+.content #branding {}
+.content #illustration {}
+.content #animation {}
+
+
+.content h1 { font-size:70px; }
+.content h2 { font-size:44px; }
+.content h3 { font-size:31px; }
+.content h4 { font-size:32px; }
+.content h5 { font-size:18px; }
+.content h6 { font-size:18px; }
+
+.content #heading .line1 { font-size:31px; line-height:31px; margin:0; }
+.content #heading .line2 { font-size:44px; line-height:44px; margin:0; }
+.content #heading .line3 { font-size:65px; line-height:56px; margin:0; }
+
+.content #logo h2 { margin: 0 0 -7px 26px; }
+.content #logo h3 { margin: 0 0 -7px 25px; }
+.content #home_measure h4 { text-align:right; }
+.content #illustration h2 { margin-bottom:40px;}
+
+.content #par1, #content #par2 { clear:both; width: 550px; float:right; }
+.content .highlight {color: #ffffff; font-weight:bold;}
+.content ul.examples li {clear:both;}
+.content .examples h1,.content .examples h2,.content .examples h3,.content .examples h4,.content .examples h5,.content .examples h6 { margin:0;text-align:left; text-shadow: 0px 1px 1px #292929;}
+.content #websites .title {background-color: #3b3b3b; width:690px; position:relative; float:left; left:-100px; padding: 30px 0 10px 100px; margin: 40px 0 20px;}
+.content #websites .example_image {float:right; position:relative; border:10px solid #292929; background-color:white; padding:10px;  margin: -120px 0 20px 10px; z-index:100;}
+
+.content #illustration li { display:inline-block; margin:10px 5px 0 0; border: 9px solid white; height:120px;}
+.content #illustration a {}
+
+.footer {display:none;}

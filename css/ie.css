@@ -1,0 +1,73 @@
+
+/* ------- Basic styles ----------------------------------------------------------------------------- */
+body {margin: 25px;}
+
+#container { width: 1000px; }
+
+#navigation { width: 210px; height:1000px; float:left; display:inline-block; }
+
+#navigation #logo { }
+#navigation #contact { }
+#navigation #websites { }
+#navigation #branding { }
+#navigation #illustration { }
+#navigation #animation { }
+#navigation #social{ }
+#navigation #blank {height:30px; }
+
+
+#navigation #logo { height:450px; }
+#navigation #logo h4 { position:relative; text-align:center; top:200px;  }
+#navigation #logo h5 { position:relative; text-align:center; top:200px; margin-top:0px; text-shadow: 0px 1px 1px #444444;}
+#navigation #logo h6 { position:relative; text-align:center; top:200px;  margin-top:0px;}
+#navigation #logo img { position:relative; top:200px; left:35px; border:0;}
+#navigation #contact { height:80px; }
+#navigation #contact h5 { position:relative; left: 25px; padding-top:10px;}
+#navigation #contact p { left: 25px; }
+
+#navigation .tile h5 { text-shadow: 0px 1px 1px #444444; height:60px;}
+#navigation .tile a { position:relative; left: 25px; top:20px; }
+
+#navigation #social { height: 64px;}
+
+
+.content { width: 590px; padding: 100px 100px 100px 100px; float:left; left:210px; min-height:700px;}
+.content #books { float:left; display: inline-block; position: relative; left: 25px;}
+.content #heading { position:relative; left: -20px; text-align:right; text-shadow: 0px 1px 1px #333333;}
+.content #home_intro { position:relative; width: 530px; float:right; margin:0px 20px 0 0 ;}
+.content #home_measure { position:relative; width: 380px; float:right; margin:50px 20px 0 0 ;}
+.content #home_conclusion  { position:relative; left: 80px; margin-top: 30px; }
+.content #logo { display:block;}
+.content #websites {}
+.content #branding {}
+.content #illustration {}
+.content #animation {}
+
+
+.content h1 { font-size:70px; }
+.content h2 { font-size:44px; }
+.content h3 { font-size:31px; }
+.content h4 { font-size:32px; }
+.content h5 { font-size:18px; }
+.content h6 { font-size:18px; }
+
+.content #logo h2 { margin: 0 0 -7px 26px; }
+.content #logo h3 { margin: 0 0 -7px 25px; }
+.content #home_measure h4 { text-align:right; }
+.content #illustration h2 { margin-bottom:40px;}
+
+.content #par1, #content #par2 { clear:both; width: 550px; float:right; }
+.content .highlight {color: #ffffff; font-weight:bold;}
+.content ul.examples li {clear:both;}
+.content .examples h1,.content .examples h2,.content .examples h3,.content .examples h4,.content .examples h5,.content .examples h6 { margin:0;text-align:left; text-shadow: 0px 1px 1px #292929;}
+.content #websites .title {background-color: #3b3b3b; width:690px; position:relative; float:left; left:-100px; padding: 30px 0 10px 100px; margin: 40px 0 20px;}
+.content #websites .example_image {float:right; position:relative; border:10px solid #292929; background-color:white; padding:10px;  margin: -120px 0 20px 10px; z-index:100;}
+.content #websites .examples a { display:inline-block; width: 190px; font-family: 'PT Sans', tahoma, arial, sans-serif; font-size:14px; color:#cccccc; background-color: #7a7a7a; border-left: 5px #666666 solid; padding: 10px; margin:10px 0; text-decoration:none;}
+.content #websites .examples a:hover {color:#ffffff; font-weight:bold;}
+
+.content #illustration li { display:inline-block; margin:10px 5px 0 0; border: 9px solid white; height:120px;}
+.content #illustration a {}
+#navigation #logo h5 {font-size:21px;}
+
+.content h5 { font-size:16px;}
+.content h6 {font-size:16px;}

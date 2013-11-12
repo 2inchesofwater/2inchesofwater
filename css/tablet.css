@@ -1,0 +1,64 @@
+
+/* ------- Basic styles ----------------------------------------------------------------------------- */
+body {margin: 25px auto; width:660px;}
+
+#container {}
+
+#navigation  ul{ font-size:0px; }
+#navigation ul li { width: 220px; height:90px; display:inline-block; float:left;}
+#navigation #blank { display:none; }
+
+
+#navigation .nav_sync_home { height:170px; padding-top:10px; text-align:center; }
+#navigation .nav_sync_home h4 {  }
+#navigation .nav_sync_home h5 { text-shadow: 0px 1px 1px #444444;}
+#navigation .nav_sync_home h6 { }
+#navigation .nav_sync_home img { left:35px; border:0;}
+#navigation .nav_contact { }
+#navigation .nav_contact h5 { margin: 17px 0 0 25px;}
+#navigation .nav_contact p { left: 25px; }
+
+#navigation .tile h5 { text-shadow: 0px 1px 1px #444444;   height:90px;}
+#navigation .tile a { position: relative; top: 52px;left:25px; }
+#navigation .nav_social ul { position: relative; top:-10px; }
+
+.content { padding: 75px 25px; float:left; min-height:700px;}
+.content #books { float:left; display: inline-block; position: relative; left: 50px;}
+.content #heading { position:relative; left: -20px; text-align:right; text-shadow: 0px 1px 1px #333333;}
+.content #home_intro { position:relative; width: 530px; float:right; margin:0px 20px 0 0 ;}
+.content #home_measure { position:relative; width: 380px; float:right; margin:50px 20px 0 0 ;}
+.content #home_conclusion  { position:relative; left: 80px; margin-top: 30px; }
+.content #logo { display:block;}
+.content #websites {}
+.content #branding {}
+.content #illustration {}
+.content #animation {}
+
+
+.content h1 { font-size:70px; }
+.content h2 { font-size:44px; }
+.content h3 { font-size:31px; }
+.content h4 { font-size:32px; }
+.content h5 { font-size:18px; }
+.content h6 { font-size:18px; }
+
+.content #heading .line1 { font-size:31px; line-height:31px; margin:0; }
+.content #heading .line2 { font-size:44px; line-height:44px; margin:0; }
+.content #heading .line3 { font-size:65px; line-height:56px; margin:0; }
+
+.content #logo h2 { margin: 0 0 -7px 26px; }
+.content #logo h3 { margin: 0 0 -7px 25px; }
+.content #home_measure h4 { text-align:right; }
+.content #illustration h2 { margin-bottom:40px;}
+
+.content #par1, #content #par2 { clear:both; width: 550px; float:right; }
+.content .highlight {color: #ffffff; font-weight:bold;}
+.content ul.examples li {clear:both;}
+.content .examples h1,.content .examples h2,.content .examples h3,.content .examples h4,.content .examples h5,.content .examples h6 { margin:0;text-align:left; text-shadow: 0px 1px 1px #292929;}
+.content #websites .title {background-color: #3b3b3b; width:585px; position:relative; float:left; left:-25px; padding: 30px 0 10px 25px; margin: 40px 0 20px;}
+.content #websites .example_image {float:right; position:relative; border:10px solid #292929; background-color:white; padding:10px;  margin: -120px 0 20px 10px; z-index:100;}
+
+.content #illustration li { display:inline-block; margin:10px 10px 0 0; border: 9px solid white; height:120px;}
+.content #illustration a {}
+
+.footer h5 {width:120px;}

@@ -1,0 +1,57 @@
+
+/* ------- Basic styles ----------------------------------------------------------------------------- */
+body {margin: 25px auto; width:320px;}
+
+#container {}
+
+#navigation  ul{ font-size:0px; }
+#navigation ul li { height:60px; width: 320px; display:inline-block; float:left;}
+#navigation #blank { height:15px; }
+
+#navigation .tile h5 { text-shadow: 0px 1px 1px #444444;  height:60px; padding-top:20px;}
+#navigation .tile a { position:relative; left:112px; }
+
+#navigation .nav_sync_home { height:170px; padding-top:10px; text-align:center; }
+#navigation .nav_sync_home h5 { text-shadow: 0px 1px 1px #444444;}
+#navigation .nav_sync_home img { border:0;}
+#navigation .nav_social ul { position: relative; top:20px; }
+#navigation .nav_social ul li {margin-right:10px;}
+#navigation .nav_contact { height: 90px; padding-top:15px; }
+#navigation .nav_contact h5 { margin: 0 0 0 112px;}
+#navigation .nav_contact p { left: 112px; }
+
+.content { padding: 75px 25px; float:left; min-height:700px;}
+.content #books { display:none;}
+.content #heading { text-shadow: 0px 1px 1px #333333;}
+.content #home_intro { position:relative; margin:0px 20px 0 0 ;}
+.content #home_measure { position:relative; margin:50px 20px 0 0 ;}
+.content #home_conclusion  { margin-top: 30px; }
+.content #logo { display:block;}
+
+.content h1 { font-size:55px; }
+.content h2 { font-size:44px; }
+.content h3 { font-size:31px; }
+.content h4 { font-size:25px; }
+.content h5 { font-size:15px; }
+.content h6 { font-size:15px; }
+
+.content #heading .line1 { font-size:31px; line-height:31px; margin:0; }
+.content #heading .line2 { font-size:44px; line-height:44px; margin:0; }
+.content #heading .line3 { font-size:55px; line-height:50px; margin:0; }
+
+
+.content #logo h2 { margin: 0 0 -7px 0px; }
+.content #logo h3 { margin: 0 0 -7px 0px; }
+.content #illustration h2 { margin-bottom:40px;}
+
+.content #par1, #content #par2 { clear:both; }
+.content .highlight {color: #ffffff; font-weight:bold;}
+.content ul.examples li {clear:both;}
+.content .examples h1,.content .examples h2,.content .examples h3,.content .examples h4,.content .examples h5,.content .examples h6 { margin:0;text-align:left; text-shadow: 0px 1px 1px #292929;}
+.content #websites .title {background-color: #3b3b3b; padding: 30px 0 10px 25px; margin: 40px 0 0px;}
+.content #websites .example_image {border:5px solid #292929; background-color:white; padding:10px; width:240px;}
+
+.content #illustration li { display:inline-block; margin:5px 2px 0 0; border: 5px solid white; height:120px;}
+.content #illustration a {}
+
+.footer h5 {font-size:14px; width:70px; padding: 10px;}
